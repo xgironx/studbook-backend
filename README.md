@@ -1,6 +1,17 @@
 # studbook
 ember_on_rails
 
+
+Some good web sites:
+
+1. https://emberigniter.com/modern-bridge-ember-and-rails-5-with-json-api/
+2. http://9elements.com/io/an-ember-js-application-with-a-rails-api-backend/
+3. http://www.thegreatcodeadventure.com/ember-js-tutorial/
+    1. https://github.com/SophieDeBenedetto/flatbook
+4. https://guides.emberjs.com/v2.12.0/tutorial/ember-data/
+
+For now, don’t assign anything to Silver or Gold, just keep a list of items in Icebox and insert/prioritize them later
+
 Bronze == MVP
 1. User Stories
     1. RO / Views / GET
@@ -24,13 +35,6 @@ Bronze == MVP
     3. Flexbox CSS
     4. Nested routes
 
-
-Some good tutorials:
-1. https://emberigniter.com/modern-bridge-ember-and-rails-5-with-json-api/
-2. http://9elements.com/io/an-ember-js-application-with-a-rails-api-backend/
-3. http://www.thegreatcodeadventure.com/ember-js-tutorial/
-    1. https://github.com/SophieDeBenedetto/flatbook
-4. https://guides.emberjs.com/v2.12.0/tutorial/ember-data/
 
 
 MVP ... Studbook   aka   The Breeders' App.  README.md
@@ -140,4 +144,22 @@ Thanks for watching.
 Jay
 
 http://kipzio.com/wp-content/uploads/2016/10/AE_VideoTapeworm_MrEd-758x397.jpg
+
+
+
+Untitled Quick Note
+
+
+Untitled Quick Note
+
+
+
+
+
+
+
+
+Backlog/Icebox:
+1. Performance mx
+2. Testing harness
 
