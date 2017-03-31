@@ -1,5 +1,8 @@
 # studbook
 ember_on_rails
+						#################################
+						201703311111L   EL VIERNES   JAY
+							WHY HASNT KTX FORKED THIS AND MADE A TRIVIAL CHANGE, OR SUGGESTIONS HERE?
 
 
 Some good web sites:
