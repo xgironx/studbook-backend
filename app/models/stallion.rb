@@ -1,0 +1,2 @@
+class Stallion < ApplicationRecord
+end

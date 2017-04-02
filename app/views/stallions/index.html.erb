@@ -1,0 +1,41 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Stallions</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Color</th>
+      <th>Registry tattoo</th>
+      <th>Stud fee</th>
+      <th>Stakes winner progeny</th>
+      <th>Img url</th>
+      <th>Link to pedigree url</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @stallions.each do |stallion| %>
+      <tr>
+        <td><%= stallion.name %></td>
+        <td><%= stallion.age %></td>
+        <td><%= stallion.color %></td>
+        <td><%= stallion.registry_tattoo %></td>
+        <td><%= stallion.stud_fee %></td>
+        <td><%= stallion.stakes_winner_progeny %></td>
+        <td><%= stallion.img_url %></td>
+        <td><%= stallion.link_to_pedigree_url %></td>
+        <td><%= link_to 'Show', stallion %></td>
+        <td><%= link_to 'Edit', edit_stallion_path(stallion) %></td>
+        <td><%= link_to 'Destroy', stallion, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Stallion', new_stallion_path %>

@@ -1,0 +1,57 @@
+<%= form_for(stallion) do |f| %>
+  <% if stallion.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(stallion.errors.count, "error") %> prohibited this stallion from being saved:</h2>
+
+      <ul>
+      <% stallion.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :age %>
+    <%= f.number_field :age %>
+  </div>
+
+  <div class="field">
+    <%= f.label :color %>
+    <%= f.text_field :color %>
+  </div>
+
+  <div class="field">
+    <%= f.label :registry_tattoo %>
+    <%= f.text_field :registry_tattoo %>
+  </div>
+
+  <div class="field">
+    <%= f.label :stud_fee %>
+    <%= f.text_field :stud_fee %>
+  </div>
+
+  <div class="field">
+    <%= f.label :stakes_winner_progeny %>
+    <%= f.number_field :stakes_winner_progeny %>
+  </div>
+
+  <div class="field">
+    <%= f.label :img_url %>
+    <%= f.text_field :img_url %>
+  </div>
+
+  <div class="field">
+    <%= f.label :link_to_pedigree_url %>
+    <%= f.text_field :link_to_pedigree_url %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
