@@ -8,6 +8,7 @@
                   # # Rails.application.config.assets.precompile += %w( products.js products.css )
 # Rails.application.config.assets.precompile += %w( stallions.js stallions.css )
 
+                  # http://stackoverflow.com/questions/19650621/heroku-upload-precompiling-assets-failed
 config.assets.initialize_on_precompile = false
 
 # Be sure to restart your server when you modify this file.
