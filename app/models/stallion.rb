@@ -1,2 +1,0 @@
-class Stallion < ApplicationRecord
-end
