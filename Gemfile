@@ -10,6 +10,8 @@ end
                                 # 201704012107L   EL SABADO   JAY @ FOO
 gem 'rack-cors'
 gem "rails_12factor", group: :production
+# gem 'listen'
+gem 'active_model_serializers'
                                 # https://github.com/ga-wdi-lessons/rails-deployment
                                 # 201704020939L   EL DOMINGO   JAY @ FOO
                                 # ############################

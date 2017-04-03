@@ -14,3 +14,5 @@ module Studbook
   end
 end
 # config.assets.initialize_on_precompile = false
+Rails.logger = Logger.new(STDOUT)
+# config.logger = Logger.new(STDOUT)
